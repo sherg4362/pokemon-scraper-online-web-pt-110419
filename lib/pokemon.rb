@@ -21,7 +21,7 @@ class Pokemon
     
     pokemon = db.execute(sql, num)
     new_pokemon = self.new(id:pokemon[0][0], name:pokemon[0][1], type:pokemon[0][2], db:db)
-    binding.pry
+    # binding.pry
   end
   
 end
