@@ -20,7 +20,7 @@ class Pokemon
     sql = "SELECT * FROM pokemon WHERE id = (?)"
     
     pokemon = db.execute(sql, num)
-    # new_pokemon = self.new(pokemon[0], pokemon[1], pokemon[2], db)
+    # new_pokemon = self.new(id:pokemon[0], name:pokemon[1], type:pokemon[2], db:db)
     binding.pry
   end
   
